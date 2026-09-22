@@ -29,4 +29,26 @@ This week covers foundational concepts in Python and artificial intelligence, in
 
 ---
 
+### week-02 — ML Project Lifecycle, Algorithms & Evaluation Metrics
+
+This week dives deeper into supervised machine learning: how a real project flows from raw data to deployment, four key algorithms compared side by side, and why choosing the right evaluation metric matters more than accuracy alone.
+
+**Topics:**
+
+- **ML Project Lifecycle** — Problem definition → data collection → preprocessing → train/validation/test split → training → evaluation → deployment.
+- **Dataset Exploration** — Titanic dataset overview; understanding features, labels, and class distribution.
+- **Train / Validation / Test Split** — Why we separate data into three sets and what each one is used for.
+- **Algorithms** — Linear Regression (house prices), Logistic Regression (spam detection), Decision Tree (loan approval), Random Forest (ensemble power).
+- **Overfitting & Underfitting** — How tree depth affects generalisation; practical comparison table.
+- **Evaluation Metrics** — Accuracy, Precision, Recall, F1-Score, Confusion Matrix (TP/TN/FP/FN) with a disease-detection case study.
+- **Mini ML Scenario** — Student pass/fail prediction end-to-end.
+
+**Files:**
+- [`week-02/ml_yasam_dongusu.py`](week-02/ml_yasam_dongusu.py) — Full ML lifecycle with Titanic-style data
+- [`week-02/algoritmalar.py`](week-02/algoritmalar.py) — Four algorithms compared on the same datasets
+- [`week-02/overfitting_metrikler.py`](week-02/overfitting_metrikler.py) — Overfitting demo and deep-dive into metrics
+- [`week-02/odev2_cevaplar.md`](week-02/odev2_cevaplar.md) — Written answers to all assignment questions
+
+---
+
 *Repository maintained as part of the TechIstanbul AI Python program.*
